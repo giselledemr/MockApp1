@@ -1,42 +1,62 @@
-title: Food Images Classifier
-description: Classify food images using deep learning
+title: Happy 2 Match Classifier
+description: Classify toys & housing miscelaneous images using deep learning
 about:
 
 
-  This is a Food Images Classifier using Deep Learning built on top of Pytorch.
-
-
-  The project was build by [Nidhin Pattaniyil](https://npatta01.github.io)
-  and [Reshama Shaikh](https://reshamas.github.io).
+  This is a Toys and Hose Miscelaneous Image Classifier using Deep Learning built on top of Pytorch.
+  
+  The WebApp is based on Pattaniyil, Nidhin and Shaikh, Reshama, Deploying Deep Learning Models On Web And Mobile, 2019
+  - Nidhin Pattaniyil (https://npatta01.github.io)
+  - Reshama Shaikh (https://reshamas.github.io).
 
 
   More info and the source code can he found below.
 
 
-  [Blog](https://reshamas.github.io/deploying-deep-learning-models-on-web-and-mobile/)
+#   [Blog](https://reshamas.github.io/deploying-deep-learning-models-on-web-and-mobile/)
 
-  [Web app](https://food-img-classifier.herokuapp.com)
-
-
-  To try out this mobile app
-
-    - [Expo](https://expo.io/@npatta01/food-app)
-
-    - [Android](https://play.google.com/store/apps/details?id=com.rsnp.foodclassifier)
-
-    - [iOS](https://itunes.apple.com/us/app/food-classifier/id1445356461?ls=1&mt=8)
+#   [Web app](https://food-img-classifier.herokuapp.com)
 
 
+#   To try out this mobile app
 
-code: https://github.com/npatta01/web-deep-learning-classifier
+#     - [Expo](https://expo.io/@npatta01/food-app)
+
+#     - [Android](https://play.google.com/store/apps/details?id=com.rsnp.foodclassifier)
+
+#     - [iOS](https://itunes.apple.com/us/app/food-classifier/id1445356461?ls=1&mt=8)
+
+
+
+# code: https://github.com/npatta01/web-deep-learning-classifier
 
 sampleImages:
-  - name: lasagne
-    url: https://upload.wikimedia.org/wikipedia/commons/b/ba/Lasagne_-_stonesoup.jpg
-  - name: sushi
-    url: https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg
-  - name: waffles
-    url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Waffles_with_Strawberries.jpg
+  - name: Barbie
+    url: https://upload.wikimedia.org/wikipedia/commons/3/38/Barby_blond.jpg
+  - name: Beyblade
+    url: https://upload.wikimedia.org/wikipedia/commons/f/ff/Beyblade_collection.jpg
+  - name: CarsPixar
+    url: https://commons.wikimedia.org/wiki/File:Cars_movie%27s_car.jpg
+  - name: Lol
+    url: https://upload.wikimedia.org/wikipedia/commons/0/03/LOLdoll.jpg
+  - name: MovingBoxes
+    url: https://upload.wikimedia.org/wikipedia/commons/6/60/Moving-boxes.jpg
+  - name: MovingBoxes
+    url: https://upload.wikimedia.org/wikipedia/commons/6/60/Moving-boxes.jpg
+  - name: MovingBoxes
+    url: https://upload.wikimedia.org/wikipedia/commons/6/60/Moving-boxes.jpg
+  - name: PawPatrol
+    url: https://upload.wikimedia.org/wikipedia/commons/2/27/The_Great_Pumpkin_Ball%2C_Montreal_Botanical_Garden_23.jpg
+  - name: PJMasks
+    url: https://upload.wikimedia.org/wikipedia/commons/9/93/PJ-Masks.jpg
+  - name: Pokemon
+    url: https://commons.wikimedia.org/wiki/File:Pokemon_(31599837283).jpg
+  - name: SpiderMan
+    url: https://upload.wikimedia.org/wikipedia/commons/5/5c/Gen_Con_Indy_2008_-_costumes_171.JPG
+  - name: SuperMan
+    url: https://upload.wikimedia.org/wikipedia/commons/3/3f/Superman-Logo.jpg
+  - name: SuperWings
+    url: https://upload.wikimedia.org/wikipedia/commons/1/13/SUPER_WINGS.jpg   
   - name: eggplant (not in training data)
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Solanum_melongena_24_08_2012_%281%29.JPG/1280px-Solanum_melongena_24_08_2012_%281%29.JPG
   - name: table (not in training & not a food)
